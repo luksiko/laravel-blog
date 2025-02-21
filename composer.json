@@ -29,10 +29,9 @@
         }
     ],
     "require": {
-        "cviebrock/eloquent-sluggable": "^10.0|^9.0|~8.0|~7.0|~6.0|~4.8|~4.7|~4.6|~4.5",
-        "intervention/image": "2.*",
-        "laravel/helpers": "^1.3",
-        "swisnl/laravel-fulltext": "^0.22.0"
+        "cviebrock/eloquent-sluggable": "^11.0.|^10.0",
+        "intervention/image": "^3.0",
+        "laravel/helpers": "^1.3"
     },
     "require-dev": {
         "phpunit/phpunit": "*",
@@ -41,7 +40,8 @@
     },
     "autoload": {
         "psr-4": {
-            "BinshopsBlog\\": "src"
+            "BinshopsBlog\\": "src",
+            "BinshopsBlog\\Laravel\\Fulltext\\": "src/FulltextSearch/src/"
         }
     },
     "autoload-dev": {
